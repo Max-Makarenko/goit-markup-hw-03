@@ -180,6 +180,12 @@ ul {
 
 /* FEATURES/КАЧЕСТВА/СЕКЦИЯ №2 */
 
+.features {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -201,7 +207,19 @@ ul {
 
 /* ABOUT/ЧЕМ МЫ ЗАНИМАЕМСЯ/СЕКЦИЯ №3 */
 
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* TEAM/ЕАША КОМАНДА/СЕКЦИЯ №4 */
+
+.team {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
 
 .team-title {
   font-weight: 500;
