@@ -241,8 +241,12 @@ ul {
 
 .about {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.about-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* TEAM/ЕАША КОМАНДА/СЕКЦИЯ №4 */
@@ -250,7 +254,7 @@ ul {
 .team {
   justify-content: space-between;
   display: flex;
-  align-items: center;
+  margin-top: 50px;
 }
 
 .team-title {
