@@ -54,7 +54,7 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 
 .title {
@@ -148,6 +148,10 @@ ul {
 
 .hero {
   background-color: var(--background-color-black);
+  height: 600px;
+  padding: 200px 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-title {
@@ -156,6 +160,7 @@ ul {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 
   color: var(--basic-white-color);
 }
@@ -210,13 +215,13 @@ ul {
 .about {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 /* TEAM/ЕАША КОМАНДА/СЕКЦИЯ №4 */
 
 .team {
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
   align-items: center;
 }
@@ -304,6 +309,13 @@ ul {
 
 /* PORTFOLIO/ПРОЕКТЫ */
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+
 .projects-title {
   font-weight: 700;
   font-size: 18px;
@@ -311,6 +323,12 @@ ul {
   letter-spacing: 0.06em;
 
   color: var(--second-text-color);
+}
+
+.project-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  flex-basis: calc(100%-30px / 3);
 }
 
 .projects-text {
