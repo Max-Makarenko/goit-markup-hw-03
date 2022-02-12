@@ -74,6 +74,8 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -107,16 +109,18 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--first-accent-color);
-  margin-right: 93px;
 }
+
 .logo-dark {
   color: #000;
 }
+
 .logo-light {
   color: var(--basic-white-color);
 }
 
 .site-nav {
+  margin-left: 93px;
 }
 
 .site-nav-item:not(:first-child) {
@@ -395,7 +399,7 @@ ul {
 .project-item {
   margin-right: 30px;
   margin-bottom: 30px;
-  flex-basis: calc(100%-30px / 3);
+  flex-basis: calc((100% - 90px) / 3);
 
   width: 370px;
   background: #ffffff;
